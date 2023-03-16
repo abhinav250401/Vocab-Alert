@@ -5,11 +5,11 @@ from datetime import datetime
 from pushbullet import Pushbullet
 
 # Set up Pushbullet API
-api_key = 'o.FUzJu4AoGKuYoaCNq8LQ2X1EbcoXcsCY'
+api_key = 'o.FUzJu4AoGKuYoaCNq8LQ2X1EbcoXcsC'
 pb = Pushbullet(api_key)
 
 # Set up Merriam-Webster API
-dictionary_key = '71fa8603-0f6c-4ac2-b598-6cb9e56a69bc'
+dictionary_key = '71fa8603-0f6c-4ac2-b598-6cb9e56a69b'
 dictionary_url = 'https://www.dictionaryapi.com/api/v3/references/learners/json/white?key=' + dictionary_key
 
 
